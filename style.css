@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  margin: 10px;
+}
+body {
+  display: grid;
+  place-content: center;
+  padding-top: 30px;
+}
+button,
+input {
+  border: 3px solid black;
+  border-radius: 25px;
+  padding: 7px;
+  background-color: white;
+  font-weight: bold;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd; /* lekki szary obramowanie */
+  font-family: Arial, sans-serif; /* prosta, czytelna czcionka */
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px; /* umiarkowane wypełnienie */
+}
+
+th {
+  background-color: #f2f2f2; /* jasny szary kolor tła dla nagłówków */
+  color: black; /* ciemny kolor tekstu dla kontrastu */
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9; /* delikatny szary dla parzystych wierszy */
+}
+
+tr:hover {
+  background-color: #e8e8e8; /* nieco ciemniejszy szary podczas najechania */
+}
